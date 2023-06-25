@@ -1,0 +1,9 @@
+before_kT = 0
+kT = 10
+pT = 2
+Num_threads_omp = 4
+L_in_one_thread = 100
+RND_max = 40
+RND_cur = 0
+file = input_N32_10_10.bin
+mkl_threads = 1
