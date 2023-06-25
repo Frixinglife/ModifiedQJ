@@ -1,4 +1,4 @@
-#include "header.h"
+п»ї#include "header.h"
 
 #define PART 0.03
 #define IND2(a,b) ((a) * n * n + (b))
@@ -17,7 +17,6 @@ void Mcblas_m(int m, int n, int k, const TComplex* a, const TComplex* b, TComple
 			for (int t = 0; t < k; t++)
 			{
 				//c[j + i * n] += a[t + i * k] * b[j + t * n];
-				// Матрица b должна быть транспонированной
 
 				c[j + i * n] += a[t + i * k] * b[t + j * k];
 			}
